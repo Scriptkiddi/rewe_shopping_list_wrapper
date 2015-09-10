@@ -10,7 +10,7 @@ def run():
     shopping_list = ShoppingList.from_name("rewe_api", True)
     shopping_list.set_active()
     onions_1kg = Product(1041138, 1)
-    shopping_list.add_product(zwiebeln_1kg)
+    shopping_list.add_product(onions_1kg)
 
 
 
